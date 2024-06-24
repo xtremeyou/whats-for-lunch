@@ -20,14 +20,14 @@ const whatToDoForLunch = function(hungry, availableTime) {
     console.log("I'm not hungry, so lets get back to work bro!");
   // we now need to write another conditional that if hungry is true and available time is less than 20 minutes, it says ""
   } else if (hungry === true && availableTime < 20) {
-    console.log("Lets grab something nearby and eat at the lab")
+    console.log("Lets grab something nearby and eat at the lab");
     // if hungry and have between 20-30 mins we go eat somewhere nearby
   } else if (hungry === true && availableTime <=  30) {
-    console.log("I have enough time, lets go somewhere nearby and eat")
+    console.log("I have enough time, lets go somewhere nearby and eat");
   } else if (hungry === true  && availableTime >= 30) {
-    console.log("I don't have as much time as I think I do, we're in a bootcamp!")
+    console.log("I don't have as much time as I think I do, we're in a bootcamp!");
   }
-}
+};
 
 
 
